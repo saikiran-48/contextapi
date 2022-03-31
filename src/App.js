@@ -1,7 +1,8 @@
 import React from "react";
-import Login from "./Login";
-import Profile from "./Profile";
+import Login from "./components/Login";
+import Profile from "./components/Profile";
 import { LoginContext } from "./Contexts/LoginContex";
+import "./App.css";
 function App() {
   const [username, setUsername] = React.useState("");
   const [showProfile, setShowProfile] = React.useState(false);
